@@ -6,11 +6,11 @@
     let { children } = $props();
 </script>
 
-<div class="from-lighter to-base flex h-screen max-h-full w-screen flex-col bg-gradient-to-bl">
+<div class="flex h-screen max-h-full w-screen flex-col overflow-hidden bg-gradient-to-bl from-lighter to-base">
     <Window />
     <div class="flex min-h-0 w-full min-w-0 flex-auto flex-row">
         <Sidebar />
-        <div class="h-full w-full flex-auto flex-grow p-8">
+        <div class="w-full flex-auto p-8">
             {@render children()}
         </div>
     </div>

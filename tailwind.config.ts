@@ -1,7 +1,6 @@
 import type { Config } from 'tailwindcss';
 import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
-import tailwindScrollbar from 'tailwind-scrollbar';
 
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -16,7 +15,7 @@ export default {
 		}
 	},
 
-	plugins: [forms, typography, tailwindScrollbar({ nocompatible: true })],
+	plugins: [forms, typography],
 
 	// daisyui: {
 	// 	themes: [
