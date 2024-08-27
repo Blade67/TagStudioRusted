@@ -1,9 +1,8 @@
-/* Write your global styles here, in PostCSS syntax */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-#logo-tag {
+/* #logo-tag {
 	animation: logo-tag-anim cubic-bezier(0.075, 0.82, 0.165, 1) 1.5s 2.5s 1 normal forwards;
 	position: absolute;
 }
@@ -36,4 +35,4 @@
 	100% {
 		clip: rect(0px, 1552px, 388px, 0px);
 	}
-}
+} */

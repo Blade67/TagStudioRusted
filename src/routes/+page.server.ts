@@ -1,5 +1,5 @@
-import { redirect } from '@sveltejs/kit';
-export function load() {
-	// ...
-	redirect(302, '/dashboard'); // needs `throw` in v1
-}
+import type { PageServerLoad } from './$types';
+
+export const load: PageServerLoad = async () => {
+	return;
+};

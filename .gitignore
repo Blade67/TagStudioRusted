@@ -34,3 +34,9 @@ agStudio.ini
 
 .devenv
 .direnv
+
+# Ignore runtime-specific files
+bun.lockb
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
